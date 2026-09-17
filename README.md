@@ -1,8 +1,8 @@
 # Hi, I'm Nourhan Hamze
 
-I am an **AI engineer** with a background in mechatronics and an M.E. in Electrical and Computer Engineering focused on **Artificial Intelligence and Machine Learning** at the American University of Beirut.
+I am a **junior AI/ML engineer** with a background in mechatronics and an M.E. in Electrical and Computer Engineering focused on **Artificial Intelligence and Machine Learning** at the American University of Beirut.
 
-My work centers on building reliable and interpretable AI systems, particularly for healthcare applications. I am interested in clinical machine learning, uncertainty-aware prediction, explainable AI, LLM evaluation, and responsible AI.
+My work centers on developing reliable, interpretable, and uncertainty-aware AI systems, particularly for healthcare applications. I am interested in clinical machine learning, explainable AI, LLM evaluation, hybrid ML–LLM systems, and applied AI engineering.
 
 ## Featured research
 
@@ -14,6 +14,15 @@ Clinical machine-learning research using routinely collected data to predict tre
 - Used SHAP to interpret influential clinical predictors.
 - Conducted baseline-only sensitivity analysis to distinguish presentation-time prognosis from treatment-informed prediction.
 - Accepted for publication in the *Journal of the American Association for Pediatric Ophthalmology and Strabismus (Journal of AAPOS)*.
+
+### Amblyopia Hybrid ML–LLM Decision-Support Agent
+
+An uncertainty-aware extension of the amblyopia prediction research that combines Random Forest and LLM outputs through trust-based agreement gating.
+
+- Achieved 72.8% gated accuracy at 69.5% coverage versus 66.8% ML-only and 64.9% LLM-only performance.
+- Routes accepted cases to outcome-specific regression and defers uncertain or conflicting cases for clinician review.
+- Built and deployed a FastAPI research prototype integrating ML and LLM inference on Render with API rate limiting.
+- [Live demo](https://amblyopia-website-5wk5.onrender.com)
 
 ### [LLM Robustness Against Public Health Misinformation](https://github.com/Nourhan832/llm-public-health-robustness)
 
@@ -29,14 +38,14 @@ A multi-layer framework for evaluating how LLMs respond to neutral, misinformati
 
 - **[ResQDrones](https://github.com/Nourhan832/resqdrones-firefighting-drone):** A semi-autonomous firefighting-drone prototype using YOLOv8 fire detection, Raspberry Pi, IoT alerts, structural simulation, and physical flight testing. Supported through TÜBİTAK 2209-A funding and recognized as a Best Graduation Project.
 - **LightAid:** An offline Li-Fi emergency communication concept for environments where conventional connectivity is unavailable.
-- **Haris:** Ongoing security middleware research for protecting multi-agent and LangGraph-based AI workflows.
+- **Haris:** Security middleware for protecting multi-agent and LangGraph-based AI workflows, developed as a team project in Amazon Industry Program 5.0.
 
 ## Technical focus
 
-- **Programming and ML:** Python, scikit-learn, TensorFlow, pandas, NumPy
-- **Model evaluation:** SHAP, conformal prediction, selective prediction, statistical evaluation
-- **LLM systems:** Prompt engineering, LLM evaluation, LLM-as-a-Judge, responsible AI
-- **Engineering:** Computer vision, robotics, embedded systems, IoT
+- **Machine Learning:** Python, scikit-learn, XGBoost, TensorFlow/Keras, pandas, NumPy, model validation, SHAP, conformal prediction
+- **LLMs & AI Systems:** LLM evaluation, adversarial testing, LLM-as-a-Judge, prompt engineering, OpenAI API, Claude API
+- **Computer Vision & Engineering:** YOLOv8, C/C++, MATLAB/Simulink, Raspberry Pi, AWS IoT, Git, Linux
+- **Familiar with:** LangGraph, FastAPI, REST APIs, Render, API rate limiting
 
 ## Highlights
 
