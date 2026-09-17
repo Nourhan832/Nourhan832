@@ -38,7 +38,7 @@ A multi-layer framework for evaluating how LLMs respond to neutral, misinformati
 
 - **[ResQDrones](https://github.com/Nourhan832/resqdrones-firefighting-drone):** A semi-autonomous firefighting-drone prototype using YOLOv8 fire detection, Raspberry Pi, IoT alerts, structural simulation, and physical flight testing. Supported through TÜBİTAK 2209-A funding and recognized as a Best Graduation Project.
 - **LightAid:** An offline Li-Fi emergency communication concept for environments where conventional connectivity is unavailable.
-- **Haris:** Security middleware for protecting multi-agent and LangGraph-based AI workflows, developed as a team project in Amazon Industry Program 5.0.
+- **[Haris](https://github.com/Nourhan832/haris-team23):** Security middleware for protecting multi-agent and LangGraph-based AI workflows, developed as a team project in Amazon Industry Program 5.0. This repository is maintained as a portfolio copy of the original Team 23 project.
 
 ## Technical focus
 
